@@ -3,9 +3,21 @@
 <head>
 <title>Fantastic Four UI/UX</title>
   <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url(bg_1.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    
     .image-container {
       max-width: 100%;
       height: auto;
+      flex: 1;
     }
     
     .image-container img {
@@ -14,9 +26,9 @@
     }
   </style>
 </head>
-<body>
-  <div class="image-container">
-    <img src="UIUXReport-01.png" alt="Image">
-  </div>
-</body>
+  <body>
+    <div class="image-container">
+      <img src="UIUXReport-01.png" alt="Image">
+    </div>
+  </body>
 </html>
